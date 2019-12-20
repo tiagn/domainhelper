@@ -1,9 +1,10 @@
 [[source]]
-url = "https://pypi.org/simple"
+url = "https://pypi.douban.com/simple"
 verify_ssl = true
 name = "pypi"
 
 [dev-packages]
+twine = "*"
 
 [packages]
 "bs4" = "*"
@@ -11,4 +12,4 @@ urllib3 = ">=1.24.2"
 requests = "*"
 
 [requires]
-python_version = "2.7"
+python_version = "3.7"
